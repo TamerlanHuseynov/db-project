@@ -102,15 +102,15 @@ WHERE SALARY BETWEEN 5000 AND 12000 ;
 
 
 -- Display the employees that have JOB_ID of
--- AD_VP
--- AD_ASST
--- FI_ACCOUNT
--- AC_ACCOUNT
+                                    -- AD_VP
+                                    -- AD_ASST
+                                    -- FI_ACCOUNT
+                                    -- AC_ACCOUNT
 SELECT FIRST_NAME, JOB_ID FROM EMPLOYEES
 WHERE JOB_ID = 'AD_VP'
-   OR  JOB_ID = 'AD_ASST'
-   OR  JOB_ID = 'FI_ACCOUNT'
-   OR  JOB_ID = 'AC_ACCOUNT' ;
+    OR  JOB_ID = 'AD_ASST'
+    OR  JOB_ID = 'FI_ACCOUNT'
+    OR  JOB_ID = 'AC_ACCOUNT' ;
 
 -- USING KEYWORD IN for multiple possible value of same column in condition
 SELECT FIRST_NAME, JOB_ID
@@ -120,7 +120,7 @@ WHERE JOB_ID IN ('AD_VP', 'AD_ASST', 'FI_ACCOUNT', 'AC_ACCOUNT') ;
 
 -- HOW TO SAY NOT IN SQL
 -- for equality check !=  <>  ,
---- FIND OUT ALL REGIONS EXPECT THE REGION WITH REGION_ID OF 1
+   --- FIND OUT ALL REGIONS EXPECT THE REGION WITH REGION_ID OF 1
 SELECT * FROM REGIONS
 WHERE REGION_ID <> 1 ;
 --WHERE REGION_ID != 1 ;
@@ -210,6 +210,3 @@ SELECT MAX (Salary)
 FROM Employees
 WHERE Salary NOT IN (SELECT Max (Salary)
                      FROM Employees);
-
-
-
