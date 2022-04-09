@@ -15,6 +15,7 @@ INSERT INTO PROGRAMS (PROGRAM_ID, PROGRAM_NAME, DESCRIPTION)
 VALUES ('B18', 'B18 Online', 'B18 description goes here');
 INSERT INTO PROGRAMS (PROGRAM_ID, PROGRAM_NAME, DESCRIPTION)
 VALUES ('B19', 'B19 Pending', 'B19 descriptions goes here');
+
 CREATE TABLE STUDENTS
 (
     STUDENT_ID   NUMBER            NOT NULL,
@@ -40,3 +41,9 @@ INSERT INTO STUDENTS (student_id, student_name, program_id)
 VALUES (105, 'Mia', null);
 INSERT INTO STUDENTS (student_id, student_name, program_id)
 VALUES (106, 'Kory', null);
+
+COMMIT ;
+
+SELECT s.STUDENT_NAME, s.PROGRAM_ID, p.PROGRAM_NAME
+FROM STUDENTS s
+INNER JOIN PROGRAMS p ON p.PROGRAM_ID= s.PROGRAM_ID
