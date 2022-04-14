@@ -1,0 +1,21 @@
+--CUSTOMERS TABLE
+-- 1.    Display CUSTOMER NAME AND ADDRESS IF CONTACT NAME is Pedro Afonso
+-- 2.    Display CUSTOMERS FullAddress(alias) in below format by concatenating
+-- 3.    ADDRESS , CITY , POSTAL CODE, COUNTRY
+-- 4.    Display CUSTOMERS THAT DOES NOT HAVE POSTAL CODE
+-- 5.    Display all CUSTOMERS with POSTAL CODE contains space or -
+-- 6.    Display CUSTOMERS with ID between 10-25
+-- 7.    Display CUSTOMERS if address ends with Rd. Blvd. or Road
+-- a.    GET THE COUNT OF ABOVE RESULT WITH COUNT(*)
+-- 8.    Display All Customers in UK , US if POSTAL CODE is not WX3 6FW, 97403
+-- 9.    Display CUSTOMERS Count in CITY Of LONDON
+-- 10.    Display CUSTOMERS Count for EACH CITY
+-- 11.    Display CUSTOMERS Count for EACH COUNTRY
+-- 12.    Display CUSTOMERS Count for EACH COUNTRY
+-- 13.    Filter the result only display if Count is more than 5
+--
+-- CATEGORIES TABLE
+-- 14.    Display All Categories contains 'es' in Description excluding coffees
+-- 15.    Display CATEGORY NAME with ID of 1, 5 , 7
+-- 16.    Display CATEGORY NAME and LENGTH of DESCRIPTION
+-- 17.    Display MAX(LENGTH(DESCRIPTION))
