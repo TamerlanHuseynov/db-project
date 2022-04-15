@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="HR" uuid="c3b79021-1ac2-4889-90d2-aac67d717665">
+    <data-source source="LOCAL" name="Spartan" uuid="f31910a9-be6c-45d7-8ba3-1b3c53d1729c">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -9,14 +9,14 @@
       <jdbc-url>jdbc:oracle:thin:@3.208.53.152:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Library2" uuid="578b1e5d-e286-4a67-8ec6-ef37e5327561">
+    <data-source source="LOCAL" name="library2" uuid="f047bdb2-e495-4526-a795-e3d9124249eb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://54.157.236.232:3306/library2</jdbc-url>
+      <jdbc-url>jdbc:mysql://34.230.35.214:3306/library2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Spartan" uuid="f31910a9-be6c-45d7-8ba3-1b3c53d1729c">
+    <data-source source="LOCAL" name="HR" uuid="7bf84d54-8e20-4f7b-a80b-6f2f69e8e29e">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
